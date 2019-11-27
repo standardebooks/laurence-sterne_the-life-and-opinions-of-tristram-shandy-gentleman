@@ -63,6 +63,13 @@
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Laurence_Sterne</meta>
 		<meta property="se:url.authority.nacoaf" refines="#author">AUTHOR_NACOAF_URL</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
+		<dc:contributor id="introduction">George Saintsbury</dc:contributor>
+		<meta property="file-as" refines="#introduction">Saintsbury, George</meta>
+		<meta property="se:name.person.full-name" refines="#introduction">George Edward Bateman Saintsbury</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#introduction">https://en.wikipedia.org/wiki/George_Saintsbury</meta>
+		<meta property="se:url.authority.nacoaf" refines="#introduction">http://id.loc.gov/authorities/names/n79061078</meta>
+		<meta property="display-seq" refines="#introduction">1</meta>
+		<meta property="role" refines="#introduction" scheme="marc:relators">aui</meta>
 		<dc:contributor id="artist">COVER_ARTIST</dc:contributor>
 		<meta property="file-as" refines="#artist">COVER_ARTIST_SORT</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">COVER_ARTIST_WIKI_URL</meta>
