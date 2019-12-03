@@ -421,6 +421,7 @@
 		<item href="text/part-2.xhtml" id="part-2.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/part-3.xhtml" id="part-3.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/part-4.xhtml" id="part-4.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/part-5-dedication.xhtml" id="part-5-dedication.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/part-5.xhtml" id="part-5.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/part-6.xhtml" id="part-6.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/part-7.xhtml" id="part-7.xhtml" media-type="application/xhtml+xml"/>
@@ -558,6 +559,7 @@
 		<itemref idref="chapter-4-31.xhtml"/>
 		<itemref idref="chapter-4-32.xhtml"/>
 		<itemref idref="part-5.xhtml"/>
+		<itemref idref="part-5-dedication.xhtml"/>
 		<itemref idref="chapter-5-1.xhtml"/>
 		<itemref idref="chapter-5-2.xhtml"/>
 		<itemref idref="chapter-5-3.xhtml"/>
