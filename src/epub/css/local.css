@@ -21,21 +21,25 @@ blockquote header{
 	text-align: center;
 }
 
+[epub|type~="z3998:song"] > p,
 [epub|type~="z3998:verse"] > p{
 	text-align: left;
 	text-indent: 0;
 }
 
+[epub|type~="z3998:song"] > p > span,
 [epub|type~="z3998:verse"] > p > span{
 	display: block;
 	text-indent: -1em;
 	padding-left: 1em;
 }
 
+[epub|type~="z3998:song"] > p > span + br,
 [epub|type~="z3998:verse"] > p > span + br{
 	display: none;
 }
 
+[epub|type~="z3998:song"] + p,
 [epub|type~="z3998:verse"] + p{
 	text-indent: 0;
 }
@@ -92,7 +96,23 @@ section[epub|type~="epigraph"] > *{
 	margin-left: 50%;
 }
 
-#chapter-7-18 [epub|type~="z3998:verse"] p{
+#slawkenbergius-en > p:last-child{
+	text-align: center;
+	text-indent: 0;
+	margin-top: 1em;
+}
+
+#slawkenbergius-en > p:last-child > b:first-child{
+	font-variant: all-small-caps;
+}
+
+#chapter-7-18 [epub|type~="z3998:verse"] p,
+#chapter-7-30 blockquote p,
+#chapter-7-32 blockquote p{
 	text-align: center;
 	font-variant: all-small-caps;
+}
+
+#chapter-7-43 [epub|type~="z3998:song"]{
+	font-variant: small-caps;
 }
