@@ -136,6 +136,34 @@ section[epub|type~="epigraph"] > *{
 	}
 }
 
+@supports (display: flex){
+	#chapter-4-27 > p > b{
+		display: flex;
+		align-items: center;
+		margin-left: 1em;
+		text-indent: 0;
+	}
+	#chapter-4-27 > p > b::after{
+		content: "";
+		border-bottom: 1px solid;
+		height: 0;
+		flex-grow: 1;
+	}
+	#chapter-4-27 > p > span{
+		display: flex;
+		align-items: center;
+	}
+	#chapter-4-27 > p > span::before{
+		content: "\200b"; /* zero-width space to fix line-height of parent row */
+	}
+	#chapter-4-27 > p > span::after{
+		content: "";
+		border-bottom: 1px solid;
+		height: 0;
+		flex-grow: 1;
+	}
+}
+
 #illustration-1{
 	page-break-before: always;
 	page-break-after: always;
