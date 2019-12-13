@@ -111,6 +111,31 @@ section[epub|type~="epigraph"] > *{
 	margin-left: 50%;
 }
 
+#chapter-1-4 > p > span{
+	display: block;
+}
+
+@supports (display: flex){
+	#chapter-1-4 > p > span{
+		display: flex;
+		align-items: center;
+		margin-left: 1em;
+		text-indent: 0;
+	}
+	#chapter-1-4 > p > span::before{
+		content: "";
+		width: 20%;
+		border-bottom: 1px solid;
+		height: 0;
+	}
+	#chapter-1-4 > p > span::after{
+		content: "";
+		border-bottom: 1px solid;
+		height: 0;
+		flex-grow: 1;
+	}
+}
+
 #illustration-1{
 	page-break-before: always;
 	page-break-after: always;
