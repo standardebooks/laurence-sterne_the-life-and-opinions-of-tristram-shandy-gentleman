@@ -12,6 +12,21 @@ blockquote header{
 	margin-bottom: 1em;
 }
 
+figure{
+	margin: 1em auto;
+	text-align: center;
+}
+
+figure img{
+	display: block;
+	margin: auto;
+	max-width: 100%;
+}
+
+figure + p{
+	text-indent: 0;
+}
+
 .signature,
 [epub|type~="z3998:salutation"]{
 	font-variant: small-caps;
@@ -94,6 +109,15 @@ section[epub|type~="epigraph"] > *{
 [epub|type~="dedication"] footer > p:first-child{
 	text-align: center;
 	margin-left: 50%;
+}
+
+#illustration-1{
+	page-break-before: always;
+	page-break-after: always;
+	margin-bottom: 0;
+}
+#illustration-1 img{
+	height: 100vh;
 }
 
 #slawkenbergius-en > p:last-child{
