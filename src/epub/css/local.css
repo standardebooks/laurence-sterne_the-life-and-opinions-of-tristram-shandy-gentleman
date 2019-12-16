@@ -1,6 +1,12 @@
 @charset "utf-8";
 @namespace epub "http://www.idpf.org/2007/ops";
 
+@font-face{
+	font-family: "Standard Blackletter";
+	font-weight: 700;
+	src: url("standard-blackletter.otf") format("opentype");
+}
+
 footer{
 	margin-top: 1em;
 	text-align: right;
@@ -25,6 +31,12 @@ figure img{
 
 figure + p{
 	text-indent: 0;
+}
+
+.blackletter{
+	font-family: "Standard Blackletter", serif;
+	font-variant: normal;
+	font-weight: 700;
 }
 
 .signature,
