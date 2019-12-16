@@ -213,6 +213,16 @@ section[epub|type~="epigraph"] > *{
 	}
 }
 
+@supports (display: flex){
+	#chapter-5-27 p{
+		text-indent: 0;
+	}
+	#chapter-5-27 p > span{
+		display: flex;
+		justify-content: space-between;
+	}
+}
+
 #chapter-7-18 [epub|type~="z3998:verse"] p,
 #chapter-7-30 blockquote p,
 #chapter-7-32 blockquote p{
