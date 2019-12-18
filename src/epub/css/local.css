@@ -224,7 +224,8 @@ section[epub|type~="epigraph"] > *{
 }
 
 @supports (display: flex){
-	#chapter-5-31 p > span{
+	#chapter-5-31 p > span,
+	#chapter-5-32 p > span{
 		display: flex;
 		justify-content: space-between;
 	}
