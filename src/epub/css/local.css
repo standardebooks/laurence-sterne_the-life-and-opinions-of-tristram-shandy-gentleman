@@ -304,6 +304,11 @@ section[epub|type~="epigraph"] > *{
 	font-variant: all-small-caps;
 }
 
+#chapter-7-35 blockquote > p{
+	text-indent: 0;
+	text-align: center;
+}
+
 #chapter-7-43 [epub|type~="z3998:song"]{
 	font-variant: small-caps;
 }
