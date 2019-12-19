@@ -279,6 +279,12 @@ section[epub|type~="epigraph"] > *{
 	text-indent: 0;
 }
 
+#chapter-6-38 > div{
+	page-break-before: always;
+	page-break-after: always;
+	min-height: 10em;
+}
+
 #chapter-7-18 [epub|type~="z3998:verse"] p,
 #chapter-7-30 blockquote p,
 #chapter-7-32 blockquote p{
