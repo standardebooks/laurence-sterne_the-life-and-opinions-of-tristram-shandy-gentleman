@@ -272,6 +272,13 @@ section[epub|type~="epigraph"] > *{
 	}
 }
 
+#chapter-6-34 p > span{
+	display: inline-block;
+	width: 3em;
+	text-align: center;
+	text-indent: 0;
+}
+
 #chapter-7-18 [epub|type~="z3998:verse"] p,
 #chapter-7-30 blockquote p,
 #chapter-7-32 blockquote p{
