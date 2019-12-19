@@ -285,6 +285,18 @@ section[epub|type~="epigraph"] > *{
 	min-height: 10em;
 }
 
+@supports (display: flex){
+	#chapter-6-39 p > span{
+		display: flex;
+		justify-content: space-between;
+		text-indent: 0;
+	}
+
+	#chapter-6-39 p > span:last-child > span:last-child{
+		margin-right: 28.25%;
+	}
+}
+
 #chapter-7-18 [epub|type~="z3998:verse"] p,
 #chapter-7-30 blockquote p,
 #chapter-7-32 blockquote p{
