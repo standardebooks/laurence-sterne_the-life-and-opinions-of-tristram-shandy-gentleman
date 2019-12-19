@@ -319,3 +319,11 @@ section[epub|type~="epigraph"] > *{
 	text-align: center;
 	text-indent: 0;
 }
+
+#chapter-9-20 p > span,
+#chapter-9-22 p > span{
+	display: inline-block;
+	width: 3em;
+	text-align: center;
+	text-indent: 0;
+}
