@@ -312,3 +312,10 @@ section[epub|type~="epigraph"] > *{
 #chapter-7-43 [epub|type~="z3998:song"]{
 	font-variant: small-caps;
 }
+
+#chapter-8-20 p > span{
+	display: inline-block;
+	width: 2em;
+	text-align: center;
+	text-indent: 0;
+}
