@@ -327,3 +327,15 @@ section[epub|type~="epigraph"] > *{
 	text-align: center;
 	text-indent: 0;
 }
+
+@supports (display: flex){
+	#chapter-9-28 p > span{
+		display: flex;
+		justify-content: space-between;
+		text-indent: 0;
+	}
+
+	#chapter-9-28 p > span:last-child > span:last-child{
+		margin-right: 60.75%;
+	}
+}
