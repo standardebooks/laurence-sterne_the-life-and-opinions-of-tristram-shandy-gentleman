@@ -148,6 +148,26 @@ section[epub|type~="epigraph"] > *{
 	}
 }
 
+#illustration-1{
+	page-break-before: always;
+	page-break-after: always;
+	margin-bottom: 0;
+}
+#illustration-1 img{
+	height: 100vh;
+}
+#chapter-1-12 blockquote{
+	text-align: center;
+}
+#chapter-1-12 blockquote > p{
+	display: inline-block;
+	text-indent: 0;
+}
+#chapter-1-12 blockquote:first-of-type > p{
+	border: 1px solid;
+	padding: 0.5em 1em;
+}
+
 @supports (display: flex){
 	.maledictus-lines > span:first-child{
 		display: flex;
@@ -192,15 +212,6 @@ section[epub|type~="epigraph"] > *{
 		height: 0;
 		flex-grow: 1;
 	}
-}
-
-#illustration-1{
-	page-break-before: always;
-	page-break-after: always;
-	margin-bottom: 0;
-}
-#illustration-1 img{
-	height: 100vh;
 }
 
 #slawkenbergius-en > p:last-child{
