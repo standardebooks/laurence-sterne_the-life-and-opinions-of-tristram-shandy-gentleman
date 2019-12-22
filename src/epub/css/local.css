@@ -173,6 +173,29 @@ section[epub|type~="epigraph"] > *{
 	padding: 0.5em 1em;
 }
 
+#chapter-2-17 blockquote header b{
+	text-transform: uppercase;
+}
+#chapter-2-17 blockquote [epub|type~="z3998:roman"]{
+	font-variant: normal;
+}
+#chapter-2-17 blockquote > header > p + p{
+	font-variant: normal;
+	font-style: italic;
+	margin-top: 0.5em;
+}
+#chapter-2-17 blockquote > header em{
+	font-style: normal;
+}
+#chapter-2-17 blockquote ~ blockquote{
+	margin-left: 0;
+	margin-right: 0;
+}
+#chapter-2-17 blockquote ~ blockquote p:last-child{
+	text-align: center;
+	margin-top: 0.5em;
+}
+
 @supports (display: flex){
 	.maledictus-lines > span:first-child{
 		display: flex;
