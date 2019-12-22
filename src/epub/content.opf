@@ -157,7 +157,8 @@
 		<item href="text/chapter-3-8.xhtml" id="chapter-3-8.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/chapter-3-9.xhtml" id="chapter-3-9.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/chapter-3-10.xhtml" id="chapter-3-10.xhtml" media-type="application/xhtml+xml"/>
-		<item href="text/chapter-3-11.xhtml" id="chapter-3-11.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-3-11-en.xhtml" id="chapter-3-11-en.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-3-11-la.xhtml" id="chapter-3-11-la.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/chapter-3-12.xhtml" id="chapter-3-12.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/chapter-3-13.xhtml" id="chapter-3-13.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/chapter-3-14.xhtml" id="chapter-3-14.xhtml" media-type="application/xhtml+xml"/>
@@ -504,7 +505,8 @@
 		<itemref idref="chapter-3-8.xhtml"/>
 		<itemref idref="chapter-3-9.xhtml"/>
 		<itemref idref="chapter-3-10.xhtml"/>
-		<itemref idref="chapter-3-11.xhtml"/>
+		<itemref idref="chapter-3-11-la.xhtml"/>
+		<itemref idref="chapter-3-11-en.xhtml"/>
 		<itemref idref="chapter-3-12.xhtml"/>
 		<itemref idref="chapter-3-13.xhtml"/>
 		<itemref idref="chapter-3-14.xhtml"/>
