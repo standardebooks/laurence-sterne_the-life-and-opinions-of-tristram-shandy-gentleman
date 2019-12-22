@@ -187,6 +187,24 @@ section[epub|type~="epigraph"] > *{
 }
 
 @supports (display: flex){
+	#chapter-4-12 p:last-child{
+		display: flex;
+		align-items: center;
+		text-indent: 0;
+	}
+	#chapter-4-12 p:last-child > span:first-child > span{
+		display: block;
+		white-space: nowrap;
+	}
+	#chapter-4-12 p:last-child > span:last-child::before{
+		content: "}";
+		font-size: 2em;
+		vertical-align: middle;
+		margin: 0 0.25em;
+	}
+}
+
+@supports (display: flex){
 	#chapter-4-27 > p > b{
 		display: flex;
 		align-items: center;
@@ -332,11 +350,60 @@ section[epub|type~="epigraph"] > *{
 	}
 }
 
+@supports (display: flex){
+	#chapter-7-8 p:nth-last-child(2){
+		display: flex;
+		align-items: center;
+		text-indent: 0;
+	}
+	#chapter-7-8 p:nth-last-child(2) > span:first-child::after{
+		content: "{";
+		font-size: 2em;
+		vertical-align: middle;
+		margin: 0 0.25em;
+	}
+	#chapter-7-8 p:nth-last-child(2) > span:last-child > span{
+		display: block;
+	}
+	#chapter-7-8 p:last-child{
+		text-indent: 0;
+	}
+}
+
 #chapter-7-18 [epub|type~="z3998:verse"] p,
 #chapter-7-30 blockquote p,
 #chapter-7-32 blockquote p{
 	text-align: center;
 	font-variant: all-small-caps;
+}
+
+#chapter-7-25 td{
+	padding: 0;
+}
+#chapter-7-25 td[rowspan]{
+	font-size: 2em;
+	padding: 0 .25em;
+}
+
+@supports (display: flex){
+	#chapter-7-31 .brace{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		text-indent: 0;
+	}
+	#chapter-7-31 .brace > span:first-child > span{
+		display: block;
+	}
+	#chapter-7-31 .brace > span:last-child::before{
+		content: "}";
+		font-size: 2em;
+		vertical-align: middle;
+		margin: 0 0.25em;
+	}
+	#chapter-7-31 .brack + p{
+		text-indent: 0;
+	}
 }
 
 #chapter-7-35 blockquote > p{
