@@ -353,6 +353,25 @@ section[epub|type~="epigraph"] > *{
 	}
 }
 
+#chapter-6-19 ul{
+	list-style-type: none;
+	margin: 0 0 0 3em;
+	padding: 0;
+}
+
+#chapter-6-19 div{
+	display: flex;
+}
+
+#chapter-6-19 > div > ul{
+	margin-left: 0.5em;
+}
+
+#chapter-6-19 > div:first-of-type li:last-child,
+#chapter-6-19 > div:last-of-type li:last-child{
+	margin-left: -2em;
+}
+
 #chapter-6-31 blockquote > p{
 	text-align: center;
 	text-indent: 0;
