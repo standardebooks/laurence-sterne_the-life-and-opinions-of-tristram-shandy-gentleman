@@ -44,6 +44,14 @@ span[epub|type~="subtitle"]{
 	font-weight: 700;
 }
 
+.indent{
+	text-indent: 0;
+	margin-left: 8em;
+}
+.indent + p{
+	text-indent: 0;
+}
+
 .signature,
 [epub|type~="z3998:salutation"]{
 	font-variant: small-caps;
@@ -452,8 +460,6 @@ section[epub|type~="epigraph"] > *{
 	#chapter-7-31 .brace{
 		display: flex;
 		align-items: center;
-		justify-content: center;
-		text-indent: 0;
 	}
 	#chapter-7-31 .brace > span:first-child > span{
 		display: block;
@@ -463,9 +469,6 @@ section[epub|type~="epigraph"] > *{
 		font-size: 2em;
 		vertical-align: middle;
 		margin: 0 0.25em;
-	}
-	#chapter-7-31 .brack + p{
-		text-indent: 0;
 	}
 }
 
