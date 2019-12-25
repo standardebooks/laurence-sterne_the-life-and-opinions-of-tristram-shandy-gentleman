@@ -500,6 +500,10 @@ section[epub|type~="epigraph"] > *{
 	text-indent: 0;
 }
 
+#illustration-2 img{
+	width: 80%;
+}
+
 #chapter-9-20 p > span,
 #chapter-9-22 p > span{
 	display: inline-block;
