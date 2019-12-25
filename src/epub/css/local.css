@@ -405,9 +405,15 @@ section[epub|type~="epigraph"] > *{
 
 #chapter-7-18 [epub|type~="z3998:verse"] p,
 #chapter-7-30 blockquote p,
-#chapter-7-32 blockquote p{
+#chapter-7-32 blockquote p,
+#chapter-7-43 blockquote:first-of-type p{
 	text-align: center;
 	font-variant: all-small-caps;
+}
+
+#chapter-7-19 blockquote p{
+	text-align: center;
+	text-indent: 0;
 }
 
 #chapter-7-25 td{
@@ -452,6 +458,12 @@ section[epub|type~="epigraph"] > *{
 	display: inline-block;
 	width: 1.2em;
 	text-indent: 0;
+}
+
+#chapter-8-19 blockquote > p{
+	text-indent: 0;
+	text-align: center;
+	font-variant: small-caps;
 }
 
 #chapter-8-20 p > span{
