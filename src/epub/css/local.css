@@ -353,6 +353,11 @@ section[epub|type~="epigraph"] > *{
 	}
 }
 
+#chapter-6-31 blockquote > p{
+	text-align: center;
+	text-indent: 0;
+}
+
 #chapter-6-34 p > span{
 	display: inline-block;
 	width: 3em;
