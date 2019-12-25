@@ -49,6 +49,11 @@ span[epub|type~="subtitle"]{
 	font-variant: small-caps;
 }
 
+[epub|type~="z3998:recipient"]{
+	font-variant: normal;
+	font-style: italic;
+}
+
 [epub|type~="z3998:verse"] footer{
 	text-align: center;
 }
