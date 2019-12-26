@@ -227,6 +227,15 @@ section[epub|type~="epigraph"] > *{
 	}
 }
 
+#illustration-2{
+	page-break-before: always;
+	page-break-after: always;
+	margin: 0;
+}
+#illustration-2 img{
+	height: 100vh;
+}
+
 @supports (display: flex){
 	#chapter-4-12 p:last-child{
 		display: flex;
@@ -415,8 +424,8 @@ section[epub|type~="epigraph"] > *{
 	}
 }
 
-#illustration-2 img,
-#illustration-3 img{
+#illustration-3 img,
+#illustration-4 img{
 	width: 90%;
 }
 
@@ -505,7 +514,7 @@ section[epub|type~="epigraph"] > *{
 	text-indent: 0;
 }
 
-#illustration-4 img{
+#illustration-5 img{
 	width: 80%;
 }
 
