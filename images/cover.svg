@@ -23,8 +23,8 @@
 	</style>
 	<image height="2100" width="1400" x="0" y="0" xlink:href="cover.jpg"/>
 	<path class="title-box" d="M 50,1620 1350,1620 1350,2050 50,2050 Z"/>
-	<text class="title-xsmall" x="700" y="1740">THE LIFE</text>
-	<text class="title-xsmall" x="700" y="1810">AND OPINIONS OF TRISTRAM</text>
-	<text class="title-xsmall" x="700" y="1880">SHANDY, GENTLEMAN</text>
+	<text class="title-xsmall" x="700" y="1740">THE LIFE AND OPINIONS</text>
+	<text class="title-xsmall" x="700" y="1810">OF TRISTRAM SHANDY,</text>
+	<text class="title-xsmall" x="700" y="1880">GENTLEMAN</text>
 	<text class="author" x="700" y="1980">LAURENCE STERNE</text>
 </svg>
