@@ -449,6 +449,10 @@ section[epub|type~="epigraph"] > *{
 	}
 }
 
+#chapter-7-10 tr:first-child{
+	font-style: italic;
+}
+
 #chapter-7-18 [epub|type~="z3998:verse"] p,
 #chapter-7-30 blockquote p,
 #chapter-7-32 blockquote p,
