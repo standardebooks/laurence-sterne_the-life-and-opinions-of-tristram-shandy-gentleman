@@ -7,6 +7,13 @@
 	src: url("standard-blackletter.otf") format("opentype");
 }
 
+i i,
+i em,
+em i,
+em em{
+	font-style: normal;
+}
+
 footer{
 	margin-top: 1em;
 	text-align: right;
@@ -164,6 +171,10 @@ section[epub|type~="epigraph"] > *{
 		height: 0;
 		flex-grow: 1;
 	}
+}
+
+#chapter-1-8 footer > p:first-child{
+	font-style: italic;
 }
 
 #illustration-1{
