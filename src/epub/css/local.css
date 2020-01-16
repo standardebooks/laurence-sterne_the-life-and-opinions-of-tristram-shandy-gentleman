@@ -291,6 +291,11 @@ section[epub|type~="epigraph"] > *{
 	}
 }
 
+#slawkenbergius-en [epub|type~="z3998:recipient"]{
+	font-style: normal;
+	text-indent: 2em;
+}
+
 #slawkenbergius-en > p:last-child{
 	text-align: center;
 	text-indent: 0;
