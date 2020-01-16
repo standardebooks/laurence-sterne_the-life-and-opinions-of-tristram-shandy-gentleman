@@ -443,6 +443,10 @@ section[epub|type~="epigraph"] > *{
 	width: 90%;
 }
 
+#illustration-5 img{
+	width: 100%;
+}
+
 @supports(display: flex){
 	#chapter-7-8 p:nth-last-child(2){
 		display: flex;
@@ -532,7 +536,7 @@ section[epub|type~="epigraph"] > *{
 	text-indent: 0;
 }
 
-#illustration-5 img{
+#illustration-6 img{
 	width: 80%;
 }
 
