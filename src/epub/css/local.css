@@ -147,7 +147,7 @@ section[epub|type~="epigraph"] > *{
 
 [epub|type~="dedication"] footer > p:first-child{
 	text-align: center;
-	margin-left: 50%;
+	margin-left: 40%;
 }
 
 #chapter-1-4 > p > span{
