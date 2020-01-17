@@ -57,6 +57,10 @@ span[epub|type~="subtitle"]{
 	text-indent: 0;
 }
 
+.invisible{
+	visibility: hidden;
+}
+
 .signature,
 [epub|type~="z3998:salutation"]{
 	font-variant: small-caps;
