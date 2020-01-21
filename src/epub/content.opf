@@ -71,10 +71,10 @@
 		<meta property="se:url.authority.nacoaf" refines="#introduction">http://id.loc.gov/authorities/names/n79061078</meta>
 		<meta property="display-seq" refines="#introduction">1</meta>
 		<meta property="role" refines="#introduction" scheme="marc:relators">aui</meta>
-		<dc:contributor id="artist">COVER_ARTIST</dc:contributor>
-		<meta property="file-as" refines="#artist">COVER_ARTIST_SORT</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">COVER_ARTIST_WIKI_URL</meta>
-		<meta property="se:url.authority.nacoaf" refines="#artist">COVER_ARTIST_NACOAF_URL</meta>
+		<dc:contributor id="artist">Charles Robert Leslie</dc:contributor>
+		<meta property="file-as" refines="#artist">Leslie, Charles Robert</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/Charles_Robert_Leslie</meta>
+		<meta property="se:url.authority.nacoaf" refines="#artist">http://id.loc.gov/authorities/names/nr89014516</meta>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
 		<dc:contributor id="transcriber-1">Louise Hope</dc:contributor>
 		<meta property="file-as" refines="#transcriber-1">Hope, Louise</meta>
