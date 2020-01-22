@@ -179,6 +179,14 @@ section[epub|type~="epigraph"] > *{
 	font-style: italic;
 }
 
+#chapter-1-9 blockquote{
+	margin-left: 0;
+	margin-right: 0;
+}
+#chapter-1-9 blockquote > p:first-child{
+	text-indent: 2em;
+}
+
 #illustration-1{
 	page-break-before: always;
 	page-break-after: always;
