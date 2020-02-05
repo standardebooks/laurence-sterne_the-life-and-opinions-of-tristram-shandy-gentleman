@@ -12,6 +12,11 @@ i em{
 	font-style: normal;
 }
 
+rt{
+	font-size: 1em;
+	ruby-align: center;
+}
+
 footer{
 	margin-top: 1em;
 	text-align: right;
@@ -231,17 +236,7 @@ section[epub|type~="epigraph"] > *{
 }
 
 @supports(display: flex){
-	.maledictus-lines > span:first-child{
-		display: flex;
-		align-items: center;
-	}
-	.maledictus-lines > span:first-child::after{
-		content: "";
-		border-bottom: 1px solid;
-		height: 0;
-		flex-grow: 1;
-	}
-	.maledictus-lines > span:first-child ~ span{
+	#chapter-3-11-la > p > span{
 		display: flex;
 		justify-content: space-around;
 		text-indent: 0;
