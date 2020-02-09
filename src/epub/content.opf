@@ -435,6 +435,7 @@
 		<item href="text/loi.xhtml" id="loi.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/part-1.xhtml" id="part-1.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/part-2.xhtml" id="part-2.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/part-3-preface.xhtml" id="part-3-preface.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/part-3.xhtml" id="part-3.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/part-4.xhtml" id="part-4.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/part-5-dedication.xhtml" id="part-5-dedication.xhtml" media-type="application/xhtml+xml"/>
@@ -524,6 +525,7 @@
 		<itemref idref="chapter-3-18.xhtml"/>
 		<itemref idref="chapter-3-19.xhtml"/>
 		<itemref idref="chapter-3-20.xhtml"/>
+		<itemref idref="part-3-preface.xhtml"/>
 		<itemref idref="chapter-3-21.xhtml"/>
 		<itemref idref="chapter-3-22.xhtml"/>
 		<itemref idref="chapter-3-23.xhtml"/>
