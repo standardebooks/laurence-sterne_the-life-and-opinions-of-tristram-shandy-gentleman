@@ -56,7 +56,7 @@ span[epub|type~="subtitle"]{
 
 .indent{
 	text-indent: 0;
-	margin-left: 8em;
+	margin-left: 25%;
 }
 .indent + p{
 	text-indent: 0;
@@ -262,10 +262,8 @@ section[epub|type~="epigraph"] > *{
 		display: block;
 		white-space: nowrap;
 	}
-	#chapter-4-12 p:last-child > span:last-child::before{
-		content: "\007d";
+	#chapter-4-12 p:last-child > span:nth-child(2){
 		font-size: 2em;
-		vertical-align: middle;
 		margin: 0 0.25em;
 	}
 }
@@ -500,17 +498,15 @@ section[epub|type~="epigraph"] > *{
 }
 
 @supports(display: flex){
-	#chapter-7-31 .brace{
+	#chapter-7-31 p:nth-last-child(5){
 		display: flex;
 		align-items: center;
 	}
-	#chapter-7-31 .brace > span:first-child > span{
+	#chapter-7-31 p:nth-last-child(5) > span:first-child > span{
 		display: block;
 	}
-	#chapter-7-31 .brace > span:last-child::before{
-		content: "\007d";
+	#chapter-7-31 p:nth-last-child(5) > span:nth-child(2){
 		font-size: 2em;
-		vertical-align: middle;
 		margin: 0 0.25em;
 	}
 }
