@@ -252,6 +252,10 @@ section[epub|type~="epigraph"] > *{
 	height: 100vh;
 }
 
+#chapter-4-1 header i{
+	font-variant: normal;
+}
+
 @supports(display: flex){
 	#chapter-4-12 p:last-child{
 		display: flex;
@@ -272,8 +276,6 @@ section[epub|type~="epigraph"] > *{
 	#chapter-4-27 > p > b{
 		display: flex;
 		align-items: center;
-		margin-left: 1em;
-		text-indent: 0;
 	}
 	#chapter-4-27 > p > b::after{
 		content: "";
@@ -458,10 +460,8 @@ section[epub|type~="epigraph"] > *{
 		align-items: center;
 		text-indent: 0;
 	}
-	#chapter-7-8 p:nth-last-child(2) > span:first-child::after{
-		content: "{";
+	#chapter-7-8 p:nth-last-child(2) > span:nth-child(2){
 		font-size: 2em;
-		vertical-align: middle;
 		margin: 0 0.25em;
 	}
 	#chapter-7-8 p:nth-last-child(2) > span:last-child > span{
