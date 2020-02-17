@@ -8,7 +8,8 @@
 }
 
 i i,
-i em{
+i em,
+i b{
 	font-style: normal;
 }
 
@@ -394,8 +395,16 @@ section[epub|type~="epigraph"] > *{
 	padding: 0;
 }
 
+#chapter-6-19 ul + p{
+	text-indent: 1em;
+}
+
 #chapter-6-19 div{
 	display: flex;
+}
+
+#chapter-6-19 > div > p{
+	white-space: nowrap;
 }
 
 #chapter-6-19 > div > ul{
