@@ -9,7 +9,8 @@
 
 i i,
 i em,
-i b{
+i b,
+em b{
 	font-style: normal;
 }
 
@@ -42,6 +43,15 @@ figure img{
 
 figure + p{
 	text-indent: 0;
+}
+
+table{
+	border-collapse: collapse;
+}
+th,
+td{
+	border: 0;
+	padding: 0 .5em 0 0;
 }
 
 span[epub|type~="subtitle"]{
@@ -478,7 +488,6 @@ section[epub|type~="epigraph"] > *{
 }
 
 #chapter-7-18 [epub|type~="z3998:verse"] p,
-#chapter-7-30 blockquote p,
 #chapter-7-32 blockquote p,
 #chapter-7-43 blockquote:first-of-type p{
 	text-align: center;
@@ -490,12 +499,14 @@ section[epub|type~="epigraph"] > *{
 	text-indent: 0;
 }
 
-#chapter-7-25 td{
-	padding: 0;
-}
 #chapter-7-25 td[rowspan]{
 	font-size: 2em;
 	padding: 0 .25em;
+}
+
+#chapter-7-30 blockquote p{
+	text-align: center;
+	font-variant: small-caps;
 }
 
 @supports(display: flex){
