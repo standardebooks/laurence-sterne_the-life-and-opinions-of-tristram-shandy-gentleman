@@ -4,7 +4,7 @@
 @font-face{
 	font-family: "Standard Blackletter";
 	font-weight: 700;
-	src: url("standard-blackletter.otf") format("opentype");
+	src: url("../fonts/standard-blackletter.otf") format("opentype");
 }
 
 i i,
