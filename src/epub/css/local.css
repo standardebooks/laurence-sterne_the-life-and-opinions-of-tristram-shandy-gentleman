@@ -48,7 +48,7 @@ figure + p{
 table{
 	border-collapse: collapse;
 }
-th,
+
 td{
 	border: 0;
 	padding: 0 .5em 0 0;
@@ -562,21 +562,10 @@ section[epub|type~="epigraph"] > *{
 }
 
 #chapter-9-20 > p > span,
-#chapter-9-22 > p > span{
+#chapter-9-22 > p > span,
+#chapter-9-28 > p > span{
 	display: inline-block;
 	width: 3em;
 	text-align: center;
 	text-indent: 0;
-}
-
-@supports(display: flex){
-	#chapter-9-28 p > span{
-		display: flex;
-		justify-content: space-between;
-		text-indent: 0;
-	}
-
-	#chapter-9-28 p > span:last-child > span:last-child{
-		margin-right: 60.75%;
-	}
 }
