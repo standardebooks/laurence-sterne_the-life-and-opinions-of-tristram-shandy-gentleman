@@ -81,6 +81,10 @@ span[epub|type~="subtitle"]{
 	visibility: hidden;
 }
 
+a[epub|type~="noteref"]{
+	font-style: normal;
+}
+
 .signature,
 [epub|type~="z3998:salutation"]{
 	font-variant: small-caps;
