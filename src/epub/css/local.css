@@ -64,6 +64,10 @@ span[epub|type~="subtitle"]{
 	font-weight: 700;
 }
 
+.short-indent{
+	text-indent: 3em;
+}
+
 .indent{
 	text-indent: 0;
 	margin-left: 6.5em;
