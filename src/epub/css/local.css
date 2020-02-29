@@ -535,6 +535,11 @@ section[epub|type~="epigraph"] > *{
 	padding: 0 .25em;
 }
 
+#chapter-7-26 .followon::before{
+	content: "⸺⁠Why, ’tis a strange story!";
+	visibility: hidden;
+}
+
 #chapter-7-30 blockquote p{
 	text-align: center;
 	font-variant: small-caps;
@@ -563,6 +568,11 @@ section[epub|type~="epigraph"] > *{
 
 #chapter-7-43 [epub|type~="z3998:song"]{
 	font-variant: small-caps;
+}
+
+#chapter-8-11 .followon::before{
+	content: "’Tis all ";
+	visibility: hidden;
 }
 
 #chapter-8-13 p > span{
