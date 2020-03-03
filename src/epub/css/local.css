@@ -368,11 +368,13 @@ section[epub|type~="epigraph"] > *{
 	display: table;
 	width: 100%;
 }
+
 #chapter-5-27 p > span > span,
 #chapter-5-31 p > span > span,
 #chapter-5-32 p > span > span{
 	display: table-cell;
 }
+
 @supports(display: flex){
 	#chapter-5-27 p > span,
 	#chapter-5-31 p > span,
