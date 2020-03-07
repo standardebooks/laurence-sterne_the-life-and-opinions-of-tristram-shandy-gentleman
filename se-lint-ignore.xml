@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<se-lint-ignore>
+	<file path="chapter-6-6.xhtml">
+		<ignore>
+			<code>s-023</code>
+			<reason>"Le Fever" is correctly titlecased since it is not preceded by a first name.</reason>
+		</ignore>
+	</file>
+	<file path="chapter-6-7.xhtml">
+		<ignore>
+			<code>s-023</code>
+			<reason>"Le Fever" is correctly titlecased since it is not preceded by a first name.</reason>
+		</ignore>
+	</file>
+	<file path="chapter-6-8.xhtml">
+		<ignore>
+			<code>s-023</code>
+			<reason>"Le Fever" is correctly titlecased since it is not preceded by a first name.</reason>
+		</ignore>
+	</file>
+	<file path="chapter-6-10.xhtml">
+		<ignore>
+			<code>s-023</code>
+			<reason>"Le Fever" is correctly titlecased since it is not preceded by a first name.</reason>
+		</ignore>
+	</file>
+</se-lint-ignore>
