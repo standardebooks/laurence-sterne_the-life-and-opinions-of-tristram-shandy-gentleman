@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <se-lint-ignore>
+	<file path="chapter-4-27.xhtml">
+		<ignore>
+			<code>s-010</code>
+			<reason>The span element is required for the unique full-length line styling.</reason>
+		</ignore>
+	</file>
 	<file path="chapter-6-6.xhtml">
 		<ignore>
 			<code>s-023</code>
@@ -22,6 +28,12 @@
 		<ignore>
 			<code>s-023</code>
 			<reason>"Le Fever" is correctly titlecased since it is not preceded by a first name.</reason>
+		</ignore>
+	</file>
+	<file path="chapter-6-38.xhtml">
+		<ignore>
+			<code>s-010</code>
+			<reason>The div element represents a blank printed page. When viewed in an ereader the page-break-before|after attributes simulate the page.</reason>
 		</ignore>
 	</file>
 </se-lint-ignore>
