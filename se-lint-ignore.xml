@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <se-lint-ignore>
-	<file path="*.xhtml">
-		<ignore>
-			<code>s-038</code>
-			<reason>Asterisms are a matter of prose style.</reason>
-		</ignore>
-	</file>
 	<file path="chapter-4-27.xhtml">
 		<ignore>
 			<code>s-010</code>
 			<reason>The span element is required for the unique full-length line styling.</reason>
+		</ignore>
+	</file>
+	<file path="chapter-5-10.xhtml">
+		<ignore>
+			<code>t-033</code>
+			<reason>Dashes are a matter of prose style.</reason>
 		</ignore>
 	</file>
 	<file path="chapter-6-6.xhtml">
@@ -52,6 +52,12 @@
 		<ignore>
 			<code>t-017</code>
 			<reason>Match is a complete clause.</reason>
+		</ignore>
+	</file>
+	<file path="slawkenbergius-en.xhtml">
+		<ignore>
+			<code>t-033</code>
+			<reason>Dashes are a matter of prose style.</reason>
 		</ignore>
 	</file>
 </se-lint-ignore>
