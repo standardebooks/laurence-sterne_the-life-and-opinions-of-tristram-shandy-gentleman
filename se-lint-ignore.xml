@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <se-lint-ignore>
+	<file path="*.xhtml">
+		<ignore>
+			<code>s-038</code>
+			<reason>Asterisms are a matter of prose style.</reason>
+		</ignore>
+	</file>
 	<file path="chapter-4-27.xhtml">
 		<ignore>
 			<code>s-010</code>
@@ -30,10 +36,22 @@
 			<reason>"Le Fever" is correctly titlecased since it is not preceded by a first name.</reason>
 		</ignore>
 	</file>
+	<file path="chapter-6-26.xhtml">
+		<ignore>
+			<code>t-017</code>
+			<reason>Match is a complete clause.</reason>
+		</ignore>
+	</file>
 	<file path="chapter-6-38.xhtml">
 		<ignore>
 			<code>s-010</code>
 			<reason>The div element represents a blank printed page. When viewed in an ereader the page-break-before|after attributes simulate the page.</reason>
+		</ignore>
+	</file>
+	<file path="chapter-6-40.xhtml">
+		<ignore>
+			<code>t-017</code>
+			<reason>Match is a complete clause.</reason>
 		</ignore>
 	</file>
 </se-lint-ignore>
