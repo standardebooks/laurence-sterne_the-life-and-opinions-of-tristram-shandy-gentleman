@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <se-lint-ignore>
+	<file path="chapter-4-12.xhtml">
+		<ignore>
+			<code>s-046</code>
+			<reason>The span elements are required for unique styling.</reason>
+		</ignore>
+	</file>
 	<file path="chapter-4-27.xhtml">
 		<ignore>
 			<code>s-010</code>
@@ -52,6 +58,18 @@
 		<ignore>
 			<code>t-017</code>
 			<reason>Match is a complete clause.</reason>
+		</ignore>
+	</file>
+	<file path="chapter-7-8.xhtml">
+		<ignore>
+			<code>s-046</code>
+			<reason>The span elements are required for unique styling.</reason>
+		</ignore>
+	</file>
+	<file path="chapter-7-31.xhtml">
+		<ignore>
+			<code>s-046</code>
+			<reason>The span elements are required for unique styling.</reason>
 		</ignore>
 	</file>
 	<file path="slawkenbergius-en.xhtml">
