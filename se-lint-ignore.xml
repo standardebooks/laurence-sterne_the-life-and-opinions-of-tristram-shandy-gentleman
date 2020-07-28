@@ -48,6 +48,12 @@
 			<reason>Match is a complete clause.</reason>
 		</ignore>
 	</file>
+	<file path="chapter-6-31.xhtml">
+		<ignore>
+			<code>t-001</code>
+			<reason>Double spacing is necessary to render the blank space in the signature.</reason>
+		</ignore>
+	</file>
 	<file path="chapter-6-38.xhtml">
 		<ignore>
 			<code>s-010</code>
