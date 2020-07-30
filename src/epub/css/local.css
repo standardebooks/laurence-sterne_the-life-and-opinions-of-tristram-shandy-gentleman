@@ -128,6 +128,7 @@ p span.i2{
 [epub|type~="epigraph"]{
 	font-style: italic;
 	hyphens: none;
+	-epub-hyphens: none;
 }
 /* End all epigraphs */
 
@@ -207,8 +208,8 @@ section[epub|type~="epigraph"] > *{
 }
 
 #illustration-1{
-	page-break-before: always;
-	page-break-after: always;
+	break-before: page;
+	break-after: page;
 	margin-bottom: 0;
 }
 
@@ -267,8 +268,8 @@ section[epub|type~="epigraph"] > *{
 }
 
 #illustration-2{
-	page-break-before: always;
-	page-break-after: always;
+	break-before: page;
+	break-after: page;
 	margin: 0;
 }
 
@@ -472,8 +473,8 @@ section[epub|type~="epigraph"] > *{
 }
 
 #chapter-6-38 > div{
-	page-break-before: always;
-	page-break-after: always;
+	break-before: page;
+	break-after: page;
 	min-height: 10em;
 }
 
