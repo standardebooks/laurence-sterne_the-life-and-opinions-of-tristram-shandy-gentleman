@@ -53,11 +53,6 @@ td{
 	padding: 0 .5em 0 0;
 }
 
-span[epub|type~="subtitle"]{
-	display: block;
-	font-weight: normal;
-}
-
 .blackletter{
 	font-family: "Standard Blackletter", serif;
 	font-variant: normal;
