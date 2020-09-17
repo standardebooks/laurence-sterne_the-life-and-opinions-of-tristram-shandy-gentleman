@@ -67,6 +67,7 @@
 		<meta property="role" refines="#author" scheme="marc:relators">ann</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">ill</meta>
+		<meta property="role" refines="#author" scheme="marc:relators">wpr</meta>
 		<dc:contributor id="introduction">George Saintsbury</dc:contributor>
 		<meta property="file-as" refines="#introduction">Saintsbury, George</meta>
 		<meta property="se:name.person.full-name" refines="#introduction">George Edward Bateman Saintsbury</meta>
