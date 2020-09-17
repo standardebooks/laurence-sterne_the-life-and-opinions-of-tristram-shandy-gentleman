@@ -7,8 +7,6 @@
 	src: url("../fonts/standard-blackletter.otf") format("opentype");
 }
 
-i i,
-i em,
 i b{
 	font-style: normal;
 }
