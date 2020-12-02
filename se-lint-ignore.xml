@@ -24,6 +24,12 @@
 			<reason>Dashes are a matter of prose style.</reason>
 		</ignore>
 	</file>
+	<file path="chapter-5-15.xhtml">
+		<ignore>
+			<code>t-042</code>
+			<reason>Matched text is not a typo.</reason>
+		</ignore>
+	</file>
 	<file path="chapter-6-6.xhtml">
 		<ignore>
 			<code>s-023</code>
