@@ -243,8 +243,9 @@ section[epub|type~="epigraph"] > *{
 }
 
 #chapter-2-17 blockquote ~ blockquote p:last-child{
-	text-align: center;
 	margin-top: 0.5em;
+	text-align: center;
+	text-indent: 0;
 }
 
 @supports(display: flex){
