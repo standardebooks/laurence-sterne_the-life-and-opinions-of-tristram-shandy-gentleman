@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <se-lint-ignore>
+	<file path="*.xhtml">
+		<ignore>
+			<code>t-049</code>
+			<reason>Dashes are a matter of prose style.</reason>
+		</ignore>
+	</file>
 	<file path="chapter-3-22.xhtml">
 		<ignore>
 			<code>t-017</code>
