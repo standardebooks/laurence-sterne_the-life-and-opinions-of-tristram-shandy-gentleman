@@ -90,6 +90,18 @@
 			<reason>The span elements are required for unique styling.</reason>
 		</ignore>
 	</file>
+	<file path="chapter-7-10.xhtml">
+		<ignore>
+			<code>c-014</code>
+			<reason>Tables are styled as in print.</reason>
+		</ignore>
+	</file>
+	<file path="chapter-7-25.xhtml">
+		<ignore>
+			<code>c-014</code>
+			<reason>Tables are styled as in print.</reason>
+		</ignore>
+	</file>
 	<file path="chapter-7-31.xhtml">
 		<ignore>
 			<code>s-046</code>
