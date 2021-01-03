@@ -36,6 +36,12 @@
 			<reason>Matched text is not a typo.</reason>
 		</ignore>
 	</file>
+	<file path="chapter-5-32.xhtml">
+		<ignore>
+			<code>s-079</code>
+			<reason>White space is an nbsp used for unique styling.</reason>
+		</ignore>
+	</file>
 	<file path="chapter-6-6.xhtml">
 		<ignore>
 			<code>s-023</code>
