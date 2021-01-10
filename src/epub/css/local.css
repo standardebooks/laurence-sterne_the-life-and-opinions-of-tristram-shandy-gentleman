@@ -122,6 +122,16 @@ p span.i2{
 	hyphens: none;
 	-epub-hyphens: none;
 }
+
+[epub|type~="epigraph"] cite{
+	margin-top: 1em;
+	font-style: normal;
+	font-variant: small-caps;
+}
+
+[epub|type~="epigraph"] cite i{
+	font-style: italic;
+}
 /* End all epigraphs */
 
 /* Full-page epigraphs */
