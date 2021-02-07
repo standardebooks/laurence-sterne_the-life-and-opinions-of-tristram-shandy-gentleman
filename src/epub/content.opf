@@ -48,6 +48,9 @@
 		<meta id="collection-1" property="belongs-to-collection">The Guardian’s best 100 novels in English (2015)</meta>
 		<meta property="collection-type" refines="#collection-1">set</meta>
 		<meta property="group-position" refines="#collection-1">6</meta>
+		<meta id="collection-2" property="belongs-to-collection">The BBC’s 100 greatest British novels (2015)</meta>
+		<meta property="collection-type" refines="#collection-2">set</meta>
+		<meta property="group-position" refines="#collection-2">47</meta>
 		<dc:description id="description">A man describes his birth and upbringing through the adventures of his family.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			&lt;p&gt;&lt;i&gt;The Life and Opinions of Tristram Shandy, Gentleman&lt;/i&gt;, a fictional autobiography of the eponymous narrator, contains—perhaps surprisingly—little about either his life or opinions, but what it does have is a meandering journey through the adventures of his close family and their associates. The book is famous for being more about the explanatory diversions and rabbit-holes that the narrator takes us down than the actual happenings he set out to describe, but in doing so he paints a vivid picture of the players and their personal stories.&lt;/p&gt;
