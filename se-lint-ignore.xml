@@ -108,10 +108,44 @@
 			<reason>Tables are styled as in print.</reason>
 		</ignore>
 	</file>
+	<file path="chapter-7-26.xhtml">
+		<ignore>
+			<code>t-057</code>
+			<reason>Matched text is lowercased in print.</reason>
+		</ignore>
+	</file>
 	<file path="chapter-7-31.xhtml">
 		<ignore>
 			<code>s-046</code>
 			<reason>The span elements are required for unique styling.</reason>
+		</ignore>
+		<ignore>
+			<code>t-057</code>
+			<reason>Matched text is lowercased in print.</reason>
+		</ignore>
+	</file>
+	<file path="chapter-8-11.xhtml">
+		<ignore>
+			<code>t-057</code>
+			<reason>Matched text is lowercased in print.</reason>
+		</ignore>
+	</file>
+	<file path="chapter-8-31.xhtml">
+		<ignore>
+			<code>t-057</code>
+			<reason>Matched text is lowercased in print.</reason>
+		</ignore>
+	</file>
+	<file path="chapter-8-33.xhtml">
+		<ignore>
+			<code>t-057</code>
+			<reason>Matched text is lowercased in print.</reason>
+		</ignore>
+	</file>
+	<file path="chapter-9-1.xhtml">
+		<ignore>
+			<code>t-057</code>
+			<reason>Matched text is lowercased in print.</reason>
 		</ignore>
 	</file>
 	<file path="slawkenbergius-en.xhtml">
