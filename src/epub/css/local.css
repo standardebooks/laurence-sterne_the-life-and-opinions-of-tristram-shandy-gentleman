@@ -234,10 +234,6 @@ section[epub|type~="epigraph"] > *{
 	text-transform: uppercase;
 }
 
-#chapter-2-17 blockquote [epub|type~="z3998:roman"]{
-	font-variant: normal;
-}
-
 #chapter-2-17 blockquote > header > p + p{
 	font-variant: normal;
 	font-style: italic;
