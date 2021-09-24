@@ -6,10 +6,28 @@
 			<reason>Dashes are a matter of prose style.</reason>
 		</ignore>
 	</file>
+	<file path="chapter-1-14.xhtml">
+		<ignore>
+			<code>t-042</code>
+			<reason>Matched text is a not a typo.</reason>
+		</ignore>
+	</file>
+	<file path="chapter-3-2.xhtml">
+		<ignore>
+			<code>t-042</code>
+			<reason>Matched text is a not a typo.</reason>
+		</ignore>
+	</file>
 	<file path="chapter-3-22.xhtml">
 		<ignore>
 			<code>t-017</code>
 			<reason>Matched text is a complete clause.</reason>
+		</ignore>
+	</file>
+	<file path="chapter-3-31.xhtml">
+		<ignore>
+			<code>t-042</code>
+			<reason>Matched text is a not a typo.</reason>
 		</ignore>
 	</file>
 	<file path="chapter-4-12.xhtml">
@@ -66,6 +84,12 @@
 			<reason>"Le Fever" is correctly titlecased since it is not preceded by a first name.</reason>
 		</ignore>
 	</file>
+	<file path="chapter-6-24.xhtml">
+		<ignore>
+			<code>t-042</code>
+			<reason>Matched text is a not a typo.</reason>
+		</ignore>
+	</file>
 	<file path="chapter-6-26.xhtml">
 		<ignore>
 			<code>t-017</code>
@@ -102,6 +126,18 @@
 			<reason>Tables are styled as in print.</reason>
 		</ignore>
 	</file>
+	<file path="chapter-7-12.xhtml">
+		<ignore>
+			<code>t-042</code>
+			<reason>Matched text is a not a typo.</reason>
+		</ignore>
+	</file>
+	<file path="chapter-7-15.xhtml">
+		<ignore>
+			<code>t-042</code>
+			<reason>Matched text is a not a typo.</reason>
+		</ignore>
+	</file>
 	<file path="chapter-7-25.xhtml">
 		<ignore>
 			<code>c-014</code>
@@ -110,8 +146,18 @@
 	</file>
 	<file path="chapter-7-26.xhtml">
 		<ignore>
+			<code>t-042</code>
+			<reason>Matched text is a not a typo.</reason>
+		</ignore>
+		<ignore>
 			<code>t-057</code>
 			<reason>Matched text is lowercased in print.</reason>
+		</ignore>
+	</file>
+	<file path="chapter-7-27.xhtml">
+		<ignore>
+			<code>t-042</code>
+			<reason>Matched text is a not a typo.</reason>
 		</ignore>
 	</file>
 	<file path="chapter-7-31.xhtml">
@@ -124,13 +170,45 @@
 			<reason>Matched text is lowercased in print.</reason>
 		</ignore>
 	</file>
+	<file path="chapter-8-2.xhtml">
+		<ignore>
+			<code>t-042</code>
+			<reason>Matched text is a not a typo.</reason>
+		</ignore>
+	</file>
 	<file path="chapter-8-11.xhtml">
+		<ignore>
+			<code>t-042</code>
+			<reason>Matched text is a not a typo.</reason>
+		</ignore>
 		<ignore>
 			<code>t-057</code>
 			<reason>Matched text is lowercased in print.</reason>
 		</ignore>
 	</file>
+	<file path="chapter-8-13.xhtml">
+		<ignore>
+			<code>t-042</code>
+			<reason>Matched text is a not a typo.</reason>
+		</ignore>
+	</file>
+	<file path="chapter-8-19.xhtml">
+		<ignore>
+			<code>t-042</code>
+			<reason>Matched text is a not a typo.</reason>
+		</ignore>
+	</file>
+	<file path="chapter-8-24.xhtml">
+		<ignore>
+			<code>t-042</code>
+			<reason>Matched text is a not a typo.</reason>
+		</ignore>
+	</file>
 	<file path="chapter-8-31.xhtml">
+		<ignore>
+			<code>t-042</code>
+			<reason>Matched text is a not a typo.</reason>
+		</ignore>
 		<ignore>
 			<code>t-057</code>
 			<reason>Matched text is lowercased in print.</reason>
