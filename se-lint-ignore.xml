@@ -154,12 +154,6 @@
 			<reason>Matched text is lowercased in print.</reason>
 		</ignore>
 	</file>
-	<file path="chapter-7-27.xhtml">
-		<ignore>
-			<code>t-042</code>
-			<reason>Matched text is a not a typo.</reason>
-		</ignore>
-	</file>
 	<file path="chapter-7-31.xhtml">
 		<ignore>
 			<code>s-046</code>
