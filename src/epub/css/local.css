@@ -39,6 +39,26 @@ figure img{
 	max-width: 100%;
 }
 
+figure.full-page{
+	break-after: page;
+	break-before: page;
+	margin: 0;
+	max-height: 100vh;
+	text-align: center;
+}
+
+@supports(display: flex){
+	figure.full-page{
+		display: flex;
+		flex-direction: column;
+	}
+
+	figure.full-page img{
+		height: 100vh;
+		object-fit: contain;
+	}
+}
+
 table{
 	border-collapse: collapse;
 }
@@ -206,16 +226,6 @@ section[epub|type~="epigraph"] > *{
 	text-indent: 2em;
 }
 
-#illustration-1{
-	break-after: page;
-	break-before: page;
-	margin-bottom: 0;
-}
-
-#illustration-1 img{
-	height: 100vh;
-}
-
 #chapter-1-12 blockquote{
 	text-align: center;
 }
@@ -261,16 +271,6 @@ section[epub|type~="epigraph"] > *{
 		justify-content: space-around;
 		text-indent: 0;
 	}
-}
-
-#illustration-2{
-	break-after: page;
-	break-before: page;
-	margin: 0;
-}
-
-#illustration-2 img{
-	height: 100vh;
 }
 
 #chapter-4-1 header i{
