@@ -29,7 +29,7 @@ blockquote header{
 
 figure{
 	break-inside: avoid;
-	margin: 1em auto;
+	margin: 1em 40px;
 	text-align: center;
 }
 
@@ -486,13 +486,9 @@ section[epub|type~="epigraph"] > *{
 	}
 }
 
-#illustration-3 img,
-#illustration-4 img{
-	width: 90%;
-}
-
-#illustration-5 img{
-	width: 100%;
+#illustration-5{
+	margin-left: 0;
+	margin-right: 0;
 }
 
 @supports(display: flex){
