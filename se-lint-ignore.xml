@@ -164,6 +164,12 @@
 			<reason>Matched text is lowercased in print.</reason>
 		</ignore>
 	</file>
+	<file path="chapter-7-35.xhtml">
+		<ignore>
+			<code>t-058</code>
+			<reason>Shy hyphen is necessary to encourage line breaks in uniquely formatted text.</reason>
+		</ignore>
+	</file>
 	<file path="chapter-8-2.xhtml">
 		<ignore>
 			<code>t-042</code>
