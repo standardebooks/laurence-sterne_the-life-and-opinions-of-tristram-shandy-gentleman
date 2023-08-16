@@ -8,13 +8,13 @@
 	</file>
 	<file path="chapter-1-14.xhtml">
 		<ignore>
-			<code>t-042</code>
+			<code>y-003</code>
 			<reason>Matched text is a not a typo.</reason>
 		</ignore>
 	</file>
 	<file path="chapter-3-2.xhtml">
 		<ignore>
-			<code>t-042</code>
+			<code>y-003</code>
 			<reason>Matched text is a not a typo.</reason>
 		</ignore>
 	</file>
@@ -26,7 +26,7 @@
 	</file>
 	<file path="chapter-3-31.xhtml">
 		<ignore>
-			<code>t-042</code>
+			<code>y-003</code>
 			<reason>Matched text is a not a typo.</reason>
 		</ignore>
 	</file>
@@ -50,7 +50,7 @@
 	</file>
 	<file path="chapter-5-15.xhtml">
 		<ignore>
-			<code>t-042</code>
+			<code>y-016</code>
 			<reason>Matched text is not a typo.</reason>
 		</ignore>
 	</file>
@@ -86,7 +86,7 @@
 	</file>
 	<file path="chapter-6-24.xhtml">
 		<ignore>
-			<code>t-042</code>
+			<code>y-003</code>
 			<reason>Matched text is a not a typo.</reason>
 		</ignore>
 	</file>
@@ -128,13 +128,13 @@
 	</file>
 	<file path="chapter-7-12.xhtml">
 		<ignore>
-			<code>t-042</code>
+			<code>y-003</code>
 			<reason>Matched text is a not a typo.</reason>
 		</ignore>
 	</file>
 	<file path="chapter-7-15.xhtml">
 		<ignore>
-			<code>t-042</code>
+			<code>y-003</code>
 			<reason>Matched text is a not a typo.</reason>
 		</ignore>
 	</file>
@@ -146,7 +146,7 @@
 	</file>
 	<file path="chapter-7-26.xhtml">
 		<ignore>
-			<code>t-042</code>
+			<code>y-003</code>
 			<reason>Matched text is a not a typo.</reason>
 		</ignore>
 		<ignore>
@@ -172,13 +172,13 @@
 	</file>
 	<file path="chapter-8-2.xhtml">
 		<ignore>
-			<code>t-042</code>
+			<code>y-003</code>
 			<reason>Matched text is a not a typo.</reason>
 		</ignore>
 	</file>
 	<file path="chapter-8-11.xhtml">
 		<ignore>
-			<code>t-042</code>
+			<code>y-003</code>
 			<reason>Matched text is a not a typo.</reason>
 		</ignore>
 		<ignore>
@@ -188,25 +188,25 @@
 	</file>
 	<file path="chapter-8-13.xhtml">
 		<ignore>
-			<code>t-042</code>
+			<code>y-003</code>
 			<reason>Matched text is a not a typo.</reason>
 		</ignore>
 	</file>
 	<file path="chapter-8-19.xhtml">
 		<ignore>
-			<code>t-042</code>
+			<code>y-003</code>
 			<reason>Matched text is a not a typo.</reason>
 		</ignore>
 	</file>
 	<file path="chapter-8-24.xhtml">
 		<ignore>
-			<code>t-042</code>
+			<code>y-003</code>
 			<reason>Matched text is a not a typo.</reason>
 		</ignore>
 	</file>
 	<file path="chapter-8-31.xhtml">
 		<ignore>
-			<code>t-042</code>
+			<code>y-003</code>
 			<reason>Matched text is a not a typo.</reason>
 		</ignore>
 		<ignore>
