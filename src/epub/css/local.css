@@ -254,7 +254,7 @@ section[epub|type~="epigraph"] > *{
 	font-style: normal;
 }
 
-#chapter-2-17 blockquote ~ blockquote{
+#chapter-2-17 blockquote{
 	margin-left: 0;
 	margin-right: 0;
 }
