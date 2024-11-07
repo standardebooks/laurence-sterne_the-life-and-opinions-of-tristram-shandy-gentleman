@@ -237,7 +237,7 @@ section[epub|type~="epigraph"] > *{
 
 #chapter-1-12 blockquote:first-of-type > p{
 	border: 1px solid;
-	padding: 0.5em 1em;
+	padding: .5em 1em;
 }
 
 #chapter-2-17 blockquote header b{
@@ -247,7 +247,7 @@ section[epub|type~="epigraph"] > *{
 #chapter-2-17 blockquote > header > p + p{
 	font-style: italic;
 	font-variant: normal;
-	margin-top: 0.5em;
+	margin-top: .5em;
 }
 
 #chapter-2-17 blockquote > header em{
@@ -260,7 +260,7 @@ section[epub|type~="epigraph"] > *{
 }
 
 #chapter-2-17 blockquote ~ blockquote p:last-child{
-	margin-top: 0.5em;
+	margin-top: .5em;
 	text-align: center;
 	text-indent: 0;
 }
@@ -291,7 +291,7 @@ section[epub|type~="epigraph"] > *{
 
 	#chapter-4-12 p:last-child > span:nth-child(2){
 		font-size: 2em;
-		margin: 0 0.25em;
+		margin: 0 .25em;
 	}
 }
 
@@ -448,7 +448,7 @@ section[epub|type~="epigraph"] > *{
 }
 
 #chapter-6-19 > div > ul{
-	margin-left: 0.5em;
+	margin-left: .5em;
 }
 
 #chapter-6-19 > div:first-of-type li:last-child,
@@ -500,7 +500,7 @@ section[epub|type~="epigraph"] > *{
 
 	#chapter-7-8 p:nth-last-child(2) > span:nth-child(2){
 		font-size: 2em;
-		margin: 0 0.25em;
+		margin: 0 .25em;
 	}
 
 	#chapter-7-8 p:nth-last-child(2) > span:last-child > span{
@@ -555,7 +555,7 @@ section[epub|type~="epigraph"] > *{
 
 	#chapter-7-31 p:nth-last-child(5) > span:nth-child(2){
 		font-size: 2em;
-		margin: 0 0.25em;
+		margin: 0 .25em;
 	}
 }
 
