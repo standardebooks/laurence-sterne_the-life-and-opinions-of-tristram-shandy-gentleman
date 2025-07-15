@@ -112,7 +112,7 @@
 			<reason>Match is a complete clause.</reason>
 		</ignore>
 		<ignore>
-			<code>t-035</code>
+			<code>y-035</code>
 			<reason>Match is not a typo.</reason>
 		</ignore>
 	</file>
@@ -230,7 +230,7 @@
 	</file>
 	<file path="chapter-9-33.xhtml">
 		<ignore>
-			<code>t-035</code>
+			<code>y-035</code>
 			<reason>Match is not a typo.</reason>
 		</ignore>
 	</file>
