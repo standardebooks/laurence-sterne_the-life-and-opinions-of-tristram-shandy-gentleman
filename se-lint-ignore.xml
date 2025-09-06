@@ -148,12 +148,12 @@
 	</file>
 	<file path="chapter-7-26.xhtml">
 		<ignore>
-			<code>y-003</code>
-			<reason>Matched text is a not a typo.</reason>
-		</ignore>
-		<ignore>
 			<code>t-057</code>
 			<reason>Matched text is lowercased in print.</reason>
+		</ignore>
+		<ignore>
+			<code>y-003</code>
+			<reason>Matched text is a not a typo.</reason>
 		</ignore>
 	</file>
 	<file path="chapter-7-31.xhtml">
@@ -180,12 +180,12 @@
 	</file>
 	<file path="chapter-8-11.xhtml">
 		<ignore>
-			<code>y-003</code>
-			<reason>Matched text is a not a typo.</reason>
-		</ignore>
-		<ignore>
 			<code>t-057</code>
 			<reason>Matched text is lowercased in print.</reason>
+		</ignore>
+		<ignore>
+			<code>y-003</code>
+			<reason>Matched text is a not a typo.</reason>
 		</ignore>
 	</file>
 	<file path="chapter-8-13.xhtml">
@@ -208,12 +208,12 @@
 	</file>
 	<file path="chapter-8-31.xhtml">
 		<ignore>
-			<code>y-003</code>
-			<reason>Matched text is a not a typo.</reason>
-		</ignore>
-		<ignore>
 			<code>t-057</code>
 			<reason>Matched text is lowercased in print.</reason>
+		</ignore>
+		<ignore>
+			<code>y-003</code>
+			<reason>Matched text is a not a typo.</reason>
 		</ignore>
 	</file>
 	<file path="chapter-8-33.xhtml">
