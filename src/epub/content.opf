@@ -82,7 +82,7 @@
 		<meta property="se:name.person.full-name" refines="#introduction">George Edward Bateman Saintsbury</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#introduction">https://en.wikipedia.org/wiki/George_Saintsbury</meta>
 		<meta property="se:url.authority.nacoaf" refines="#introduction">http://id.loc.gov/authorities/names/n79061078</meta>
-		<meta property="role" refines="#introduction" scheme="marc:relators">aui</meta>
+		<meta property="role" refines="#introduction" scheme="marc:relators">win</meta>
 		<dc:contributor id="artist">Charles Robert Leslie</dc:contributor>
 		<meta property="file-as" refines="#artist">Leslie, Charles Robert</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/Charles_Robert_Leslie</meta>
