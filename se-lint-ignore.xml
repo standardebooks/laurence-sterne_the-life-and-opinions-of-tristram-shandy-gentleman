@@ -1,242 +1,200 @@
 <?xml version="1.0" encoding="utf-8"?>
 <se-lint-ignore>
 	<file path="*.xhtml">
-		<ignore>
-			<code>t-049</code>
+		<ignore code="t-049">
 			<reason>Dashes are a matter of prose style.</reason>
 		</ignore>
-		<ignore>
-			<code>y-033</code>
+		<ignore code="y-033">
 			<reason>Dashes are a matter of prose style.</reason>
 		</ignore>
 	</file>
 	<file path="chapter-1-14.xhtml">
-		<ignore>
-			<code>y-003</code>
+		<ignore code="y-003">
 			<reason>Matched text is a not a typo.</reason>
 		</ignore>
 	</file>
 	<file path="chapter-3-22.xhtml">
-		<ignore>
-			<code>t-017</code>
+		<ignore code="t-017">
 			<reason>Matched text is a complete clause.</reason>
 		</ignore>
 	</file>
 	<file path="chapter-3-31.xhtml">
-		<ignore>
-			<code>y-003</code>
+		<ignore code="y-003">
 			<reason>Matched text is a not a typo.</reason>
 		</ignore>
 	</file>
 	<file path="chapter-4-12.xhtml">
-		<ignore>
-			<code>s-046</code>
+		<ignore code="s-046">
 			<reason>The span elements are required for unique styling.</reason>
 		</ignore>
 	</file>
 	<file path="chapter-4-27.xhtml">
-		<ignore>
-			<code>s-010</code>
+		<ignore code="s-010">
 			<reason>The span element is required for the unique full-length line styling.</reason>
 		</ignore>
 	</file>
 	<file path="chapter-5-10.xhtml">
-		<ignore>
-			<code>t-033</code>
+		<ignore code="t-033">
 			<reason>Dashes are a matter of prose style.</reason>
 		</ignore>
 	</file>
 	<file path="chapter-5-15.xhtml">
-		<ignore>
-			<code>y-016</code>
+		<ignore code="y-016">
 			<reason>Matched text is not a typo.</reason>
 		</ignore>
 	</file>
 	<file path="chapter-5-32.xhtml">
-		<ignore>
-			<code>s-079</code>
+		<ignore code="s-079">
 			<reason>White space is an nbsp used for unique styling.</reason>
 		</ignore>
 	</file>
 	<file path="chapter-6-6.xhtml">
-		<ignore>
-			<code>s-023</code>
+		<ignore code="s-023">
 			<reason>"Le Fever" is correctly titlecased since it is not preceded by a first name.</reason>
 		</ignore>
 	</file>
 	<file path="chapter-6-7.xhtml">
-		<ignore>
-			<code>s-023</code>
+		<ignore code="s-023">
 			<reason>"Le Fever" is correctly titlecased since it is not preceded by a first name.</reason>
 		</ignore>
 	</file>
 	<file path="chapter-6-8.xhtml">
-		<ignore>
-			<code>s-023</code>
+		<ignore code="s-023">
 			<reason>"Le Fever" is correctly titlecased since it is not preceded by a first name.</reason>
 		</ignore>
 	</file>
 	<file path="chapter-6-10.xhtml">
-		<ignore>
-			<code>s-023</code>
+		<ignore code="s-023">
 			<reason>"Le Fever" is correctly titlecased since it is not preceded by a first name.</reason>
 		</ignore>
 	</file>
 	<file path="chapter-6-24.xhtml">
-		<ignore>
-			<code>y-003</code>
+		<ignore code="y-003">
 			<reason>Matched text is a not a typo.</reason>
 		</ignore>
 	</file>
 	<file path="chapter-6-26.xhtml">
-		<ignore>
-			<code>t-017</code>
+		<ignore code="t-017">
 			<reason>Match is a complete clause.</reason>
 		</ignore>
 	</file>
 	<file path="chapter-6-31.xhtml">
-		<ignore>
-			<code>t-001</code>
+		<ignore code="t-001">
 			<reason>Double spacing is necessary to render the blank space in the signature.</reason>
 		</ignore>
 	</file>
 	<file path="chapter-6-38.xhtml">
-		<ignore>
-			<code>s-010</code>
+		<ignore code="s-010">
 			<reason>The div element represents a blank printed page. When viewed in an ereader the page-break-before|after attributes simulate the page.</reason>
 		</ignore>
 	</file>
 	<file path="chapter-6-40.xhtml">
-		<ignore>
-			<code>t-017</code>
+		<ignore code="t-017">
 			<reason>Match is a complete clause.</reason>
 		</ignore>
-		<ignore>
-			<code>y-035</code>
+		<ignore code="y-035">
 			<reason>Match is not a typo.</reason>
 		</ignore>
 	</file>
 	<file path="chapter-7-8.xhtml">
-		<ignore>
-			<code>s-046</code>
+		<ignore code="s-046">
 			<reason>The span elements are required for unique styling.</reason>
 		</ignore>
 	</file>
 	<file path="chapter-7-10.xhtml">
-		<ignore>
-			<code>c-014</code>
+		<ignore code="c-014">
 			<reason>Tables are styled as in print.</reason>
 		</ignore>
 	</file>
 	<file path="chapter-7-12.xhtml">
-		<ignore>
-			<code>y-003</code>
+		<ignore code="y-003">
 			<reason>Matched text is a not a typo.</reason>
 		</ignore>
 	</file>
 	<file path="chapter-7-15.xhtml">
-		<ignore>
-			<code>y-003</code>
+		<ignore code="y-003">
 			<reason>Matched text is a not a typo.</reason>
 		</ignore>
 	</file>
 	<file path="chapter-7-25.xhtml">
-		<ignore>
-			<code>c-014</code>
+		<ignore code="c-014">
 			<reason>Tables are styled as in print.</reason>
 		</ignore>
 	</file>
 	<file path="chapter-7-26.xhtml">
-		<ignore>
-			<code>t-057</code>
+		<ignore code="t-057">
 			<reason>Matched text is lowercased in print.</reason>
 		</ignore>
-		<ignore>
-			<code>y-003</code>
+		<ignore code="y-003">
 			<reason>Matched text is a not a typo.</reason>
 		</ignore>
 	</file>
 	<file path="chapter-7-31.xhtml">
-		<ignore>
-			<code>s-046</code>
+		<ignore code="s-046">
 			<reason>The span elements are required for unique styling.</reason>
 		</ignore>
-		<ignore>
-			<code>t-057</code>
+		<ignore code="t-057">
 			<reason>Matched text is lowercased in print.</reason>
 		</ignore>
 	</file>
 	<file path="chapter-7-35.xhtml">
-		<ignore>
-			<code>t-058</code>
+		<ignore code="t-058">
 			<reason>Shy hyphen is necessary to encourage line breaks in uniquely formatted text.</reason>
 		</ignore>
 	</file>
 	<file path="chapter-8-2.xhtml">
-		<ignore>
-			<code>y-003</code>
+		<ignore code="y-003">
 			<reason>Matched text is a not a typo.</reason>
 		</ignore>
 	</file>
 	<file path="chapter-8-11.xhtml">
-		<ignore>
-			<code>t-057</code>
+		<ignore code="t-057">
 			<reason>Matched text is lowercased in print.</reason>
 		</ignore>
-		<ignore>
-			<code>y-003</code>
+		<ignore code="y-003">
 			<reason>Matched text is a not a typo.</reason>
 		</ignore>
 	</file>
 	<file path="chapter-8-13.xhtml">
-		<ignore>
-			<code>y-003</code>
+		<ignore code="y-003">
 			<reason>Matched text is a not a typo.</reason>
 		</ignore>
 	</file>
 	<file path="chapter-8-19.xhtml">
-		<ignore>
-			<code>y-003</code>
+		<ignore code="y-003">
 			<reason>Matched text is a not a typo.</reason>
 		</ignore>
 	</file>
 	<file path="chapter-8-24.xhtml">
-		<ignore>
-			<code>y-003</code>
+		<ignore code="y-003">
 			<reason>Matched text is a not a typo.</reason>
 		</ignore>
 	</file>
 	<file path="chapter-8-31.xhtml">
-		<ignore>
-			<code>t-057</code>
+		<ignore code="t-057">
 			<reason>Matched text is lowercased in print.</reason>
 		</ignore>
-		<ignore>
-			<code>y-003</code>
+		<ignore code="y-003">
 			<reason>Matched text is a not a typo.</reason>
 		</ignore>
 	</file>
 	<file path="chapter-8-33.xhtml">
-		<ignore>
-			<code>t-057</code>
+		<ignore code="t-057">
 			<reason>Matched text is lowercased in print.</reason>
 		</ignore>
 	</file>
 	<file path="chapter-9-1.xhtml">
-		<ignore>
-			<code>t-057</code>
+		<ignore code="t-057">
 			<reason>Matched text is lowercased in print.</reason>
 		</ignore>
 	</file>
 	<file path="chapter-9-33.xhtml">
-		<ignore>
-			<code>y-035</code>
+		<ignore code="y-035">
 			<reason>Match is not a typo.</reason>
 		</ignore>
 	</file>
 	<file path="slawkenbergius-en.xhtml">
-		<ignore>
-			<code>t-033</code>
+		<ignore code="t-033">
 			<reason>Dashes are a matter of prose style.</reason>
 		</ignore>
 	</file>
