@@ -33,9 +33,9 @@
 		<meta property="file-as" refines="#title">Life and Opinions of Tristram Shandy, Gentleman, The</meta>
 		<dc:subject id="subject-1">Stream of consciousness fiction</dc:subject>
 		<dc:subject id="subject-2">Experimental fiction</dc:subject>
-		<dc:subject id="subject-3">Fiction -- Authorship -- Fiction</dc:subject>
-		<dc:subject id="subject-4">Infants -- Fiction</dc:subject>
-		<dc:subject id="subject-5">Fetus -- Fiction</dc:subject>
+		<dc:subject id="subject-3">Fiction--Authorship--Fiction</dc:subject>
+		<dc:subject id="subject-4">Infants--Fiction</dc:subject>
+		<dc:subject id="subject-5">Fetus--Fiction</dc:subject>
 		<meta property="authority" refines="#subject-1">LCSH</meta>
 		<meta property="term" refines="#subject-1">sh85128571</meta>
 		<meta property="authority" refines="#subject-2">LCSH</meta>
