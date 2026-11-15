@@ -11,9 +11,11 @@ i b{
 	font-style: normal;
 }
 
-rt{
-	font-size: 1em;
-	ruby-align: center;
+@supports(display: ruby){
+	rt{
+		font-size: 1em;
+		ruby-align: center;
+	}
 }
 
 footer{
@@ -344,17 +346,19 @@ section[epub|type~="epigraph"] > *{
 	}
 }
 
-#chapter-5-27 p > span,
-#chapter-5-31 p > span,
-#chapter-5-32 p > span{
-	display: table;
-	width: 100%;
-}
+@supports((display: table) and (display: table-cell)){
+	#chapter-5-27 p > span,
+	#chapter-5-31 p > span,
+	#chapter-5-32 p > span{
+		display: table;
+		width: 100%;
+	}
 
-#chapter-5-27 p > span > span,
-#chapter-5-31 p > span > span,
-#chapter-5-32 p > span > span{
-	display: table-cell;
+	#chapter-5-27 p > span > span,
+	#chapter-5-31 p > span > span,
+	#chapter-5-32 p > span > span{
+		display: table-cell;
+	}
 }
 
 @supports(display: flex){
@@ -412,6 +416,10 @@ section[epub|type~="epigraph"] > *{
 	#chapter-6-17 p > span:last-child > span:last-child{
 		margin-right: 42.25%;
 	}
+
+	#chapter-6-19 div{
+		display: flex;
+	}
 }
 
 #chapter-6-19 ul{
@@ -422,10 +430,6 @@ section[epub|type~="epigraph"] > *{
 
 #chapter-6-19 ul + p{
 	text-indent: 1em;
-}
-
-#chapter-6-19 div{
-	display: flex;
 }
 
 #chapter-6-19 > div > p{
